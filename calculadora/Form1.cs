@@ -19,14 +19,6 @@ namespace calculadora
         /// <summary>
         /// Creado por: Genesis Abigail García Flores, Evi Giselle Esquivel Gonzáles, José Remberto Pérez Aquino y Rodrigo Fernando Córdova Domínguez
         /// Fecha 8/28/2023
-        /// 
-        /// 
-        /// olaaaa donde estan????
-        /// hdssdssfs
-        /// ssdgrbfcvc
-        /// ya entendi esta cosa xd
-        /// OLAAAAAAAAAAAAAA aquiiiii estan abduciendo mi código aiuda
-        /// 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
