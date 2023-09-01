@@ -24,6 +24,7 @@ namespace calculadora
         /// olaaaa donde estan????
         /// 
         /// 
+        /// OLAAAAAAAAAAAAAA aquiiiii estan abduciendo mi código aiuda
         /// 
         /// </summary>
         /// <param name="sender"></param>
