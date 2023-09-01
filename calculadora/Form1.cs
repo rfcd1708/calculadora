@@ -24,7 +24,7 @@ namespace calculadora
         /// olaaaa donde estan????
         /// hdssdssfs
         /// ssdgrbfcvc
-        /// 
+        /// ya entendi esta cosa xd
         /// OLAAAAAAAAAAAAAA aquiiiii estan abduciendo mi código aiuda
         /// 
         /// </summary>
