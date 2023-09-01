@@ -35,7 +35,7 @@ namespace calculadora
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-
+            lblHistorial.Text = "";
             txtShow.Text = "0";
             Numero1 = 0;
             Numero2 = 0;
