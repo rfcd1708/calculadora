@@ -20,7 +20,7 @@ namespace calculadora
         /// Creado por: Genesis Abigail García Flores, Evi Giselle Esquivel Gonzáles, José Remberto Pérez Aquino y Rodrigo Fernando Córdova Domínguez
         /// Fecha 8/28/2023
         /// 
-        /// OLAAAAAAAAAAAAAA aquiiiii
+        /// 
         /// olaaaa donde estan????
         /// 
         /// 
