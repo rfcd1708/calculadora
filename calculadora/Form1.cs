@@ -20,8 +20,8 @@ namespace calculadora
         /// Creado por: Genesis Abigail García Flores, Evi Giselle Esquivel Gonzáles, José Remberto Pérez Aquino y Rodrigo Fernando Córdova Domínguez
         /// Fecha 8/28/2023
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="Numero1, Numero2">Sirven para almacenar el valor de los números a operar.</param>
+        /// <param name="operador"></param>
 
     
 
