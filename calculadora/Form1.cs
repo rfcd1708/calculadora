@@ -23,7 +23,7 @@ namespace calculadora
         /// <param name="sender"></param>
         /// <param name="e"></param>
 
-        //Probemos si sirve esta onda
+    
 
         //Declaracion de variables 
 
