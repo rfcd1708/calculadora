@@ -315,6 +315,7 @@ namespace calculadora
             // lblHistorial
             // 
             this.lblHistorial.AutoSize = true;
+            this.lblHistorial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(158)))), ((int)(((byte)(205)))));
             this.lblHistorial.Location = new System.Drawing.Point(45, 17);
             this.lblHistorial.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHistorial.Name = "lblHistorial";
