@@ -28,7 +28,7 @@ namespace calculadora
         //Declaracion de variables 
 
         double Numero1 = 0, Numero2 = 0, total = 0 ;
-        string operador = ""; //igual = "=";
+        string operador = "", igual = "=";
 
 
         //el boton elimina todo los digitos que se encuentre en el txtShow
@@ -268,7 +268,7 @@ namespace calculadora
             }
 
             // Actualizar historial con la operación realizada
-            lblHistorial.Text += Numero2 + " " + "=" + " " + total + "\n";
+            lblHistorial.Text += Numero2 + " " + igual + " " + total + "\n";
 
             // Limpiar variables y el label del resultado
             lblHistorial.Text = "";
