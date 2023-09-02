@@ -274,6 +274,7 @@ namespace calculadora
             Numero1 = 0;
             Numero2 = 0;
             operador = "";
+            total = 0;
             resultadoMostrado = true;
         }
 
