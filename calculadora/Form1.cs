@@ -28,7 +28,7 @@ namespace calculadora
         //Declaracion de variables 
 
         double Numero1 = 0, Numero2 = 0, total = 0 ;
-        string operador = ""; //igual = "=";
+        string operador = ""; 
 
 
         //el boton elimina todo los digitos que se encuentre en el txtShow
