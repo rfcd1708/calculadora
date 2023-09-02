@@ -27,7 +27,7 @@ namespace calculadora
 
         //Declaracion de variables 
 
-        double Numero1 =0, Numero2=0;
+        double Numero1 = 0, Numero2 = 0, total = 0 ;
         string operador = "";
 
 
@@ -251,20 +251,24 @@ namespace calculadora
             {
                 case "+":
                     txtShow.Text = $"{Numero1 + Numero2}";
+                    total = Convert.ToDouble(txtShow.Text);
                     break;
                 case "-":
                     txtShow.Text = $"{Numero1 - Numero2}";
+                    total = Convert.ToDouble(txtShow.Text);
                     break;
                 case "*":
                     txtShow.Text = $"{Numero1 * Numero2}";
+                    total = Convert.ToDouble(txtShow.Text);
                     break;
                 case "/":
                     txtShow.Text = $"{Numero1 / Numero2}";
+                    total = Convert.ToDouble(txtShow.Text);
                     break;
             }
 
             // Actualizar historial con la operación realizada
-            lblHistorial.Text += Numero2 + " " + "=" + " " + txtShow.Text + "\n";
+            lblHistorial.Text += Numero2 + " " + "=" + " " + total + "\n";
 
             // Limpiar variables después de la operación
             Numero1 = 0;
