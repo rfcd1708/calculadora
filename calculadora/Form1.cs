@@ -270,12 +270,12 @@ namespace calculadora
             // Actualizar historial con la operación realizada
             lblHistorial.Text += Numero2 + " " + igual + " " + total + "\n";
 
-            // Limpiar variables después de la operación
+            // Limpiar variables y el label del resultado
             lblHistorial.Text = "";
             Numero1 = 0;
             Numero2 = 0;
             operador = "";
-            total = 0;
+            total = 0; 
             resultadoMostrado = true;
         }
 
