@@ -278,12 +278,12 @@ namespace calculadora
             // 
             this.btnChange.BackColor = System.Drawing.Color.White;
             this.btnChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.btnChange.Location = new System.Drawing.Point(361, 92);
+            this.btnChange.Location = new System.Drawing.Point(297, 170);
             this.btnChange.Margin = new System.Windows.Forms.Padding(2);
             this.btnChange.Name = "btnChange";
             this.btnChange.Size = new System.Drawing.Size(60, 65);
             this.btnChange.TabIndex = 22;
-            this.btnChange.Text = "DE";
+            this.btnChange.Text = "+/-";
             this.btnChange.UseVisualStyleBackColor = false;
             this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
@@ -304,12 +304,12 @@ namespace calculadora
             // 
             this.btn1by1.BackColor = System.Drawing.Color.White;
             this.btn1by1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.btn1by1.Location = new System.Drawing.Point(297, 170);
+            this.btn1by1.Location = new System.Drawing.Point(361, 92);
             this.btn1by1.Margin = new System.Windows.Forms.Padding(2);
             this.btn1by1.Name = "btn1by1";
             this.btn1by1.Size = new System.Drawing.Size(60, 65);
             this.btn1by1.TabIndex = 24;
-            this.btn1by1.Text = "BA";
+            this.btn1by1.Text = "DE";
             this.btn1by1.UseVisualStyleBackColor = false;
             this.btn1by1.Click += new System.EventHandler(this.btn1by1_Click);
             // 
