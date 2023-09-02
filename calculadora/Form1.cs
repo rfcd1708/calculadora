@@ -36,6 +36,7 @@ namespace calculadora
         private void btnClear_Click(object sender, EventArgs e)
         {
             // Limpiar variables y el label del resultado
+            txtShow.Text = "";
             lblHistorial.Text = "";
             Numero1 = 0;
             Numero2 = 0;
