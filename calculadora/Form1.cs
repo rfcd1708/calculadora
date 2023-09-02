@@ -35,11 +35,13 @@ namespace calculadora
 
         private void btnClear_Click(object sender, EventArgs e)
         {
+            // Limpiar variables y el label del resultado
             lblHistorial.Text = "";
-            txtShow.Text = "0";
             Numero1 = 0;
             Numero2 = 0;
             operador = "";
+            total = 0;
+            resultadoMostrado = true;
         }
 
         // el boton elimina digito por digito, lo que se encuentre en el txtShow
@@ -269,14 +271,6 @@ namespace calculadora
 
             // Actualizar historial con la operación realizada
             lblHistorial.Text += Numero2 + " " + igual + " " + total + "\n";
-
-            // Limpiar variables y el label del resultado
-            lblHistorial.Text = "";
-            Numero1 = 0;
-            Numero2 = 0;
-            operador = "";
-            total = 0; 
-            resultadoMostrado = true;
         }
 
         // ...
